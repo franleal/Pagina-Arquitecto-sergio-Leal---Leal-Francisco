@@ -1,7 +1,47 @@
 /*-----------------------------------MAIN-----------------------------------------*/
 
 /*........imagenes.............*/
+main{
+    margin: auto;
+}
+
+
+.img2{
+    width: 100%;
+    height: 1000px;
+    padding-top: 40px;
+}
+.img3{
+    width: 100%;
+    height: 600px;
+    
+}
+.img4{
+    width: 100%;
+    height: 600px;
+}
 
 /*........texto.............*/
 
+.texto{
+    color: $colorLetras;
+    font-family:'Oswald', sans-serif ;
+    font-size: 30px;
+    padding-left: 150px ;
+    padding-right: 150px;
+    padding-top: 30px;
+}
+
 /*........subtitulo.............*/
+.subtitulo{
+    
+    
+
+    .subtitulo__texto{
+        font-family: 'Oswald', sans-serif;
+        font-size: 75px;
+        padding-left: 150px ;
+        padding-top:30px;
+        color: $colorLetras;
+    }
+}

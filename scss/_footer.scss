@@ -1,1 +1,71 @@
 /*-----------------------------------FOOTER-----------------------------------------*/
+
+/*........nav footer.............*/
+.F{
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+
+    .listaFooter{
+        display: flex;
+        flex-direction: column;
+        width: 125px;
+        height:350px;
+        
+        
+        
+        .listaFooter__li{
+            list-style:none;
+            font-family:'Oswald', sans-serif ;
+            font-size: 25px;
+            padding-top: 15px;
+           
+            
+        }
+
+        
+    }
+
+    a:visited, a:link, a:active{
+        text-decoration:none; 
+        color: $colorLetras;
+    }
+
+    .listaFooter__li:hover{
+        text-decoration: underline;
+        
+    }
+
+    a:hover{
+        color: rgb(247, 129, 34);
+        
+    }
+
+    .PieDePagina{
+        font-size: 15px;
+        color: $colorLetras;
+        position: absolute;
+        right: 30px;
+    }
+}
+
+
+/*........redes.............*/
+.redes{
+    
+    width: 300px;
+    margin-bottom: 50px;
+    padding-left: 30px;
+}
+
+.logos{
+    width: 40px;
+    transition: width 1s;
+    padding-right:10px;
+}
+
+.logos:hover{
+    width: 60px;
+}
+
+/*........copy.............*/

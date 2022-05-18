@@ -3,5 +3,14 @@
     padding: 0%;
     box-sizing: border-box;
 }
+$colorFondo:#242020;
+$colorLetras:#f8e6d1;
+
+body{
+    background-color: $colorFondo;
+}
+
 
 @import "header";
+@import "main";
+@import "footer";

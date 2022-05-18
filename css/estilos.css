@@ -3,6 +3,9 @@
   padding: 0%;
   box-sizing: border-box; }
 
+body {
+  background-color: #242020; }
+
 /*-----------------------------------HEADER-----------------------------------------*/
 /*........titulo.............*/
 /*........nav.............*/
@@ -29,3 +32,83 @@ video {
   width: 100%;
   height: 100%;
   transform: translate(-50%, -50%); }
+
+/*-----------------------------------MAIN-----------------------------------------*/
+/*........imagenes.............*/
+main {
+  margin: auto; }
+
+.img2 {
+  width: 100%;
+  height: 1000px;
+  padding-top: 40px; }
+
+.img3 {
+  width: 100%;
+  height: 600px; }
+
+.img4 {
+  width: 100%;
+  height: 600px; }
+
+/*........texto.............*/
+.texto {
+  color: #f8e6d1;
+  font-family: 'Oswald', sans-serif;
+  font-size: 30px;
+  padding-left: 150px;
+  padding-right: 150px;
+  padding-top: 30px; }
+
+/*........subtitulo.............*/
+.subtitulo .subtitulo__texto {
+  font-family: 'Oswald', sans-serif;
+  font-size: 75px;
+  padding-left: 150px;
+  padding-top: 30px;
+  color: #f8e6d1; }
+
+/*-----------------------------------FOOTER-----------------------------------------*/
+/*........nav footer.............*/
+.F {
+  padding-left: 100px;
+  padding-right: 100px;
+  padding-top: 100px; }
+  .F .listaFooter {
+    display: flex;
+    flex-direction: column;
+    width: 125px;
+    height: 350px; }
+    .F .listaFooter .listaFooter__li {
+      list-style: none;
+      font-family: 'Oswald', sans-serif;
+      font-size: 25px;
+      padding-top: 15px; }
+  .F a:visited, .F a:link, .F a:active {
+    text-decoration: none;
+    color: #f8e6d1; }
+  .F .listaFooter__li:hover {
+    text-decoration: underline; }
+  .F a:hover {
+    color: #f78122; }
+  .F .PieDePagina {
+    font-size: 15px;
+    color: #f8e6d1;
+    position: absolute;
+    right: 30px; }
+
+/*........redes.............*/
+.redes {
+  width: 300px;
+  margin-bottom: 50px;
+  padding-left: 30px; }
+
+.logos {
+  width: 40px;
+  transition: width 1s;
+  padding-right: 10px; }
+
+.logos:hover {
+  width: 60px; }
+
+/*........copy.............*/
