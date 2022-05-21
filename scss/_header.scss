@@ -60,16 +60,28 @@ header {
         color: $colorLetras;
     }
 
+    .titulo2{
+        font-family: 'Bebas Neue', cursive;
+        color:$colorLetras;
+        font-size: 150px;
+        position: absolute;
+        left: 100px;
+        top: 500px;
+        animation:fadeIn ;
+        animation-duration: 3s;
+        
+    }
+
 /*........nav.............*/
     .menu{
         
         position: absolute;
-        right: -250px;
+        right: -350px;
         width: 800px;
     }
     
     .menu__li{
-        font-size: 25px;
+        font-size: 20px;
         padding: 10px;
         padding-top: 60px;
     }

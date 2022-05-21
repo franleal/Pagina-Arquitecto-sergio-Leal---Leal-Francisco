@@ -1,0 +1,100 @@
+/*-----------------------------------GALERIA----------------------------------------*/
+
+/*........imagenes.............*/
+
+.galeria_container{
+    display: grid;
+    grid-template-columns: 650px 650px;
+    grid-template-rows: repeat(8,400px);
+    gap: 20px;
+    justify-content: center;
+    grid-template-areas:
+    "img1 img2"
+    "img3 img4"
+    "img5 img6"
+    "img7 img8"
+    "img9 img10"
+    "img11 img12"
+    "img13 img14"
+    "img15 img16"
+    ;
+
+    margin-top: 30px;
+}
+
+.galeria__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    animation-duration: 4s;
+    
+    animation-name: aparecer;
+    animation-iteration-count:initial;
+
+    transition: all 300ms;
+}
+
+.galeria__img:hover{
+    transform: scale(1.30);
+}
+
+@keyframes aparecer {
+   0% {
+     opacity: 0;
+   }
+   100% {
+     opacity: 1;
+   }
+}
+
+.imagen1{
+    grid-area: img1;
+}
+.imagen2{
+    grid-area: img2;
+}
+.imagen3{
+    grid-area: img3;
+}
+.imagen4{
+    grid-area: img4;
+}
+.imagen5{
+    grid-area: img5;
+}
+.imagen6{
+    grid-area: img6;
+}
+.imagen7{
+    grid-area: img7;
+}
+.imagen8{
+    grid-area: img8;
+}
+.imagen9{
+    grid-area: img9;
+}
+.imagen10{
+    grid-area: img10;
+}
+.imagen11{
+    grid-area: img11;
+}
+.imagen12{
+    grid-area: img12;
+}
+.imagen13{
+    grid-area: img13;
+}
+.imagen14{
+    grid-area: img14;
+}
+.imagen15{
+    grid-area: img15;
+}
+.imagen16{
+    grid-area: img16;
+}
+.imagen17{
+    grid-area: img17;
+}

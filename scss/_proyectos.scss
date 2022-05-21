@@ -1,0 +1,47 @@
+/*-----------------------------------PROYECTOS--------------------------------------*/
+
+.proyectos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20x;
+    
+
+    .proyectos__img{
+        padding: 10px;
+        width: 900px;
+        height: 100%;
+        animation: zoomIn;
+        animation-duration: 2s;
+        
+       
+    }
+    
+    .proyectos__texto{
+        font-size: 30px;
+        font-family:'Oswald', sans-serif ;
+        width: 50%;
+       color:$colorLetras;
+
+    }
+
+    .a-video{
+        position: absolute;
+        left: 300px;
+        bottom: 250px;
+        font-size: 50px;
+        font-family:'Oswald', sans-serif ;
+        color: $colorLetras;
+        text-decoration: none;
+    }
+
+    .a-video:hover{
+        color: rgb(247, 129, 34);
+    }
+
+    .overlay{
+        background-color: black;
+        opacity: 0.3;
+        z-index: 1;
+    }
+}
