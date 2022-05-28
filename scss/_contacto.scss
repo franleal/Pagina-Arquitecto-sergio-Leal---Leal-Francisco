@@ -1,0 +1,97 @@
+/*_______________________________CONTACTO_________________________________________*/
+
+.grid-contacto{
+    display: grid;
+    grid-template-areas: 
+          "H H"
+          "img mensaje"
+          "img form"
+          "img form"
+          "F F";
+   grid-gap: 10px;  
+   grid-template-columns: 1fr 1fr;
+
+}
+.imgcont{
+    grid-area: img;
+}
+.imagen-contacto{
+    width: 100%;
+    padding: 20px;
+}
+.DejanosTuMensaje{
+    font-size: 50px;
+    grid-area: mensaje;
+    text-align: center;
+    margin: auto;
+}
+.formulario{
+    grid-area: form;
+    margin: auto;
+
+    .formulario__div{
+        width: 800px;
+        margin: 20px;
+    }
+
+    .formulario__label{
+        width: 800px;
+        height: 900px;
+    }
+
+    .formulario__input{
+        width: 500px;
+        height: 50px;
+         padding: 15px;
+         margin: 20px;
+         border: 1px solid #ffffff;
+         font-size: 20px;
+         font-family: 'Oswald', sans-serif;
+         background-color: #242020;
+         color: #f0e0cb;
+         animation: fadeInRight;
+         animation-duration: 1s;
+    }
+
+    .mensaje{
+        height: 150px;
+    }
+    
+    .boton{
+        position: relative;
+        background-color: transparent;
+        width: 150px;
+        height: 50px;
+        padding: 10px;
+        margin: 10px;
+        color: $colorLetras;
+        border:2px solid $colorSecundario;
+        transition: all 500ms;
+        z-index: 0;
+
+        &::before{
+            content: '';
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            margin: auto;
+            background-color: $colorSecundario;
+            transition: all 500ms;
+            z-index: -1;
+        }
+
+    }
+
+    .boton1:hover{
+        background-color: $colorSecundario ;
+        box-shadow: 0 0 10px $colorSecundario, 0 0 20px $colorSecundario, 0 0 20px $colorSecundario;
+        color: $colorLetras;
+    }
+    .boton2:hover{
+        background-color: $colorSecundario ;
+        box-shadow: 0 0 10px $colorSecundario, 0 0 20px $colorSecundario, 0 0 20px $colorSecundario;
+        color: $colorLetras;
+    }
+}
+

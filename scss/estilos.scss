@@ -5,6 +5,7 @@
 }
 $colorFondo:#242020;
 $colorLetras:#f8e6d1;
+$colorSecundario:rgb(209, 111, 31);
 
 body{
     background-color: $colorFondo;
@@ -16,3 +17,7 @@ body{
 @import "footer";
 @import "galeria";
 @import "proyectos";
+@import "sobremi";
+@import "obras";
+@import "contacto";
+

@@ -13,33 +13,41 @@
         height:350px;
         
         
-        
         .listaFooter__li{
             list-style:none;
             font-family:'Oswald', sans-serif ;
             font-size: 25px;
-            padding-top: 15px;
-           
-            
+            padding-top: 15px; 
+            position: relative;
+            color: $colorLetras;
+            text-decoration: none;
+
+            &::after{
+                content: "";
+                position: absolute;
+                background-color: $colorSecundario;
+                height: 3px;
+                width: 0;
+                left: 0;
+                bottom: 0;
+                transition: all 500ms;
+                
+            }
+
+            &:hover::after{
+                width: 100%;
+            }
+
         }
 
+        a:visited, a:link, a:active{
+            text-decoration:none; 
+            color: $colorLetras;
+        }
         
     }
 
-    a:visited, a:link, a:active{
-        text-decoration:none; 
-        color: $colorLetras;
-    }
-
-    .listaFooter__li:hover{
-        text-decoration: underline;
-        
-    }
-
-    a:hover{
-        color: rgb(247, 129, 34);
-        
-    }
+    
 
     .PieDePagina{
         font-size: 15px;
