@@ -11,7 +11,10 @@ body{
     background-color: $colorFondo;
 }
 
-
+hr{
+    color: $colorLetras;
+   margin-top: 60px;
+}
 @import "header";
 @import "main";
 @import "footer";

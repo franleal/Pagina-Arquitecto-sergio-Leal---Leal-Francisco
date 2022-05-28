@@ -4,8 +4,8 @@
 .F{
     padding-left: 100px;
     padding-right: 100px;
-    padding-top: 100px;
-
+    padding-top: 40px;
+    
     .listaFooter{
         display: flex;
         flex-direction: column;
@@ -47,7 +47,6 @@
         
     }
 
-    
 
     .PieDePagina{
         font-size: 15px;
@@ -55,25 +54,69 @@
         position: absolute;
         right: 30px;
     }
+
+    .redes{
+    
+        width: 100%;
+        margin-bottom: 50px;
+        
+        display: flex;
+        flex-wrap: wrap;
+        
+        justify-content: center;
+
+        i{
+            color: $colorLetras;
+            padding: 35px;
+            font-size: 25px;
+            transition: all 500ms;
+        }
+
+        .bi-facebook{
+            transition: all 500ms;
+        }
+        .bi-facebook:hover{
+            text-shadow: 0px 0px 20px #80aaff;
+            color: #80aaff; 
+        }
+
+        .bi-twitter{
+            transition: all 500ms;
+        }
+        .bi-twitter:hover{
+            text-shadow: 0px 0px 20px #1DA1F2;
+            color: #1DA1F2; 
+        }
+
+        .bi-instagram{
+            transition: all 500ms;
+        }
+        .bi-instagram:hover{
+            text-shadow: 0px 0px 20px #C13584;
+            color: #C13584; 
+        }
+
+        i:hover{
+            font-size: 35px;
+        }
+
+        .cont_redes{
+            width: 100%px;
+        }
+        .texto-redes{
+            width: 100%;
+            font-size: 25px;
+            color: $colorLetras;
+            text-align: center;
+            padding-bottom: 10px;
+        }
+         
+    }
 }
 
 
 /*........redes.............*/
-.redes{
-    
-    width: 300px;
-    margin-bottom: 50px;
-    padding-left: 30px;
-}
-
-.logos{
-    width: 40px;
-    transition: width 1s;
-    padding-right:10px;
-}
-
-.logos:hover{
-    width: 60px;
-}
 
 /*........copy.............*/
+
+
