@@ -8,20 +8,20 @@
     
 
     .proyectos__img{
-        padding: 10px;
+        padding-top:  30px;
         width: 900px;
         height: 100%;
         animation: zoomIn;
         animation-duration: 2s;
-        
-       
+  
     }
     
     .proyectos__texto{
         font-size: 30px;
         font-family:'Oswald', sans-serif ;
         width: 50%;
-       color:$colorLetras;
+        color:$colorLetras;
+        text-align: center;
 
     }
 

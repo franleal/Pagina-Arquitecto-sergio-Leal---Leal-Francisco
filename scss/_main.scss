@@ -38,12 +38,36 @@ main{
 
 /*........subtitulo.............*/
 .subtitulo{
-    
-    .subtitulo__texto{
-        font-family: 'Oswald', sans-serif;
-        font-size: 75px;
-        padding-left: 150px ;
-        padding-top:30px;
-        color: $colorLetras;
+    .contenedor-sub{
+        width: 100%;
+        min-height: 100px;
+        
+        .titulo_sub{
+            width: 100%;
+            height: 100px;
+            overflow: hidden;
+            
+            .texto-subtitulo{
+                font-family: 'Oswald', sans-serif;
+                font-size: 75px;
+                color: $colorLetras;   
+            }
+        }
+        .subtitulo__info{
+            height: 0px;
+            overflow: hidden;
+            transition: all 500ms ease;
+        
+            .texto-main{
+                color: $colorLetras;
+                font-family:'Oswald', sans-serif ;
+                font-size: 25px;
+                padding-left: 10px;
+            }
+        }
+    }
+    .contenedor-sub:hover .subtitulo__info{
+        height: 200px;
     }
 }
+

@@ -15,8 +15,6 @@ header {
         left: 50%;
         min-width: 100%;
         min-height: 100%;
-        width: auto;
-        height: auto;
         z-index: 0;
         -ms-transform: translateX(-50%) translateY(-50%);
         -moz-transform: translateX(-50%) translateY(-50%);
@@ -44,7 +42,6 @@ header {
 
 /*........titulo.............*/
     .inicioTitulo{
-        
         width: 100%;
         position: absolute;
         left: -280px;
@@ -52,6 +49,8 @@ header {
     .a_titulo{
         font-family: 'Bebas Neue';
         font-size: 70px;
+        animation:fadeIn ;
+        animation-duration: 3s;
         
     }
     

@@ -22,8 +22,10 @@
 .DejanosTuMensaje{
     font-size: 50px;
     grid-area: mensaje;
-    text-align: center;
-    margin: auto;
+    text-align: start;
+    padding-left: 150px;
+    color: $colorLetras;
+    
 }
 .formulario{
     grid-area: form;
